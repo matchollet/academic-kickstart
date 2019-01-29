@@ -3,7 +3,7 @@
 # This widget displays publications from `content/publication/` which have
 # `featured = true` in their `+++` front matter.
 widget = "publications_featured"
-active = true
+active = false
 date = 2016-04-20T00:00:00
 
 title = "Featured Publications"
@@ -18,7 +18,7 @@ weight = 10
 #   2 = APA
 #   3 = MLA
 #   4 = Stream
-list_format = 1
+list_format = 2
 
 # Filter by publication type.
 # -1: Any
@@ -31,4 +31,3 @@ list_format = 1
 #  6: Book chapter
 publication_type = "-1"
 +++
-
