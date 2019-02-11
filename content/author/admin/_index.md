@@ -32,14 +32,15 @@ interests = [
   year = 2015
 
 [[education.courses]]
+  course = "MEng in Telecommunications"
+  institution = "Telecom Bretagne"
+  year = 2011
+
+[[education.courses]]
   course = "MRes in Computer Science"
   institution = "Université de Rennes 1"
   year = 2011
 
-[[education.courses]]
-  course = "MEng in Telecommunications"
-  institution = "Telecom Bretagne"
-  year = 2011
 
 # Custom background List
 [[background.positions]]
@@ -47,7 +48,7 @@ interests = [
   institution = "University of Glasgow"
   team = "Institute of Neuroscience and Psychology"
   location = "Glasgow, UK"
-  dates = "2018/2019"
+  dates = "2018"
 
 [[background.positions]]
   position = "Research Associate"
@@ -57,18 +58,26 @@ interests = [
   dates = "2015/2018"
 
 [[background.positions]]
-  position = "Visiting Researcher"
+  position = "Postdoctoral Scholar"
   institution = "National Institute of Informatics"
   team = "Prendinger Lab"
   location = "Tokyo, Japan"
   dates = "2015"
 
-[[background.degrees]]
-  degree = "PhD"
-  major = "Computer Science"
+
+[[background.positions]]
+  position = "PhD Candidate"
   institution = "Telecom Paristech"
+  team = "Greta Team"
   location = "Paris, France"
   dates = "2011/2015"
+
+#[[background.degrees]]
+#  degree = "PhD"
+#  major = "Computer Science"
+#  institution = "Telecom Paristech"
+#  location = "Paris, France"
+#  dates = "2011/2015"
 
 # Social/Academic Networking
 #

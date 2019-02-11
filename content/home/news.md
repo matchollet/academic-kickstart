@@ -12,6 +12,8 @@ subtitle = ""
 weight = 5
 +++
 
+*11-02-19 ---* The first paper from my newest project on virtual classrooms "Towards Narrative-Driven Atmosphere for Virtual Classroom", written with colleagues from Universität Würzburg and Ecole Nationale d'Ingénieurs de Brest, has been accepted in the CHI 2019 Late-Breaking Results track.
+
 *16-12-18 ---* I presented the Cicero project at the [VSI 2018 workshop](https://medium.com/virtual-reality-virtual-people/virtual-social-interaction-conference-8972dcd9211c)
 
 *15-11-18 ---*  Just came back from an intense couple of weeks, after I presented 2 papers at [IVA 2018](https://iva2018.westernsydney.edu.au), and gave seminars on interpersonal skills training with multimodal interaction at UNSW, Sydney and at Seikei University, Tokyo. Thanks to to Prof. Skinner, Prof. Epps, and Prof. Nakano for setting those up!
