@@ -3,6 +3,7 @@
 widget = "talks"
 active = false
 date = 2016-04-20T00:00:00
+headless = true
 
 title = "Recent & Upcoming Talks"
 subtitle = ""
@@ -22,4 +23,3 @@ list_format = 2
 # Exclude talks that are shown in the Featured Talks widget?
 exclude_featured = false
 +++
-

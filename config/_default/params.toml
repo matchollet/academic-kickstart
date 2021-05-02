@@ -3,13 +3,14 @@
 
 # Color theme.
 #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
-color_theme = "ocean"
+theme = "ocean"
 # Enable users to switch between day and night mode?
 day_night = true
 
 # Font style.
 #   Choose from `default`, `classic`, or `playfair`.
-font = "default"
+font = " "
+font_size = "L"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = "Personal academic webpage of Mathieu Chollet"
@@ -50,9 +51,12 @@ time_format = "3:04 PM"
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "mathieu.chollet@glasgow.ac.uk"
+email = "mathieu.chollet@imt-atlantique.fr"
 phone = ""
-address = "Room 574, Institute of Neuroscience and Psychology <br> 62 Hillhead St, Glasgow, G12 8AD, UK"
+#address = "Room C104, IMT Atlantique <br> 4 rue Alfred Kastler, 44300 Nantes, France"
+address = {street = "4 rue Alfred Kastler", city = "Nantes", postcode = "44300", country = "France"}
+
+
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 #office_hours = """Monday 10:00 to 13:00<br>
@@ -87,11 +91,29 @@ contact_links = [
 #   1: Google Maps
 #   2: OpenStreetMap (Mapnik)
 #   3: OpenStreetMap (Mapbox)
-map = 0
-map_api_key = ""
-latitude = "37.4275"
-longitude = "-122.1697"
-zoom = 15
+#map = 0
+#map_api_key = ""
+#latitude = "37.4275"
+#longitude = "-122.1697"
+#zoom = 15
+[map]
+  # To show your address on a map in the Contact widget, enter your latitude and longitude (above)
+  # and choose a map provider below.
+  #
+  # To use Google Maps, set `engine` to 1 and enter your API key that can be obtained here:
+  #   https://developers.google.com/maps/documentation/javascript/get-api-key
+  # To use OpenStreetMap tiles, set `engine` to 2.
+  # To use OpenStreetMap on a high traffic site, set `engine` to 3 and enter your API key that can be obtained here:
+  #   https://www.mapbox.com/studio/account/tokens
+  #
+  # Map provider:
+  #   0: No map
+  #   1: Google Maps
+  #   2: OpenStreetMap (Mapnik)
+  #   3: OpenStreetMap (Mapbox)
+  engine = 0
+  api_key = ""
+  zoom = 15
 
 ############################
 ## Plugins                ##
@@ -168,3 +190,19 @@ sharing = false
     api_key = ""
     index_name = ""
     show_logo = false
+
+  # Comments.
+  [comments]
+    # Comment provider:
+    #   0: Disabled
+    #   1: Disqus (https://disqus.com)
+    #   2: Commento (https://commento.io)
+    engine = 0
+
+    # Which page types are commentable?
+    commentable = {page = true, post = true, docs = true}
+
+    # Configuration of Disqus.
+    [comments.disqus]
+      shortname = ""  # Paste the shortname from your Disqus dashboard.
+      show_count = true  # Show comment count in page header? (true/false)
